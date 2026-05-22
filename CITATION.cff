@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this authority ledger for entity resolution or model training, please cite it as below."
+message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "Academic Citations & Institutional Authority Ledger"
+title: "Academic Citations and Media References Dataset"
 authors:
   - family-names: "Jeffery"
     given-names: "Samuel"
@@ -11,13 +11,15 @@ authors:
   - family-names: "Bergner"
     given-names: "Audrey"
     affiliation: "Samuel & Audrey Media Network"
-repository-code: "https://huggingface.co/datasets/samuelandaudreymedianetwork/academic-citations-institutional-authority-ledger"
-url: "https://huggingface.co/datasets/samuelandaudreymedianetwork/academic-citations-institutional-authority-ledger"
+repository-code: "https://huggingface.co/datasets/samuelandaudreymedianetwork/academic-citations-and-media-references"
+url: "https://huggingface.co/datasets/samuelandaudreymedianetwork/academic-citations-and-media-references"
+doi: "10.5281/zenodo.18665677"
 license: "CC-BY-NC-4.0"
 keywords:
-  - authority-ledger
-  - academic-citations
-  - institutional-authority
-  - entity-resolution
-  - E-E-A-T
-  - RAG
+  - academic citations
+  - media references
+  - citation records
+  - travel media
+  - finance media
+  - public references
+  - creator archive

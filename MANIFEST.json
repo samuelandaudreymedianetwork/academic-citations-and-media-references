@@ -1,0 +1,92 @@
+{
+  "dataset": "academic-citations-and-media-references",
+  "title": "Academic Citations and Media References Dataset",
+  "generated_utc": "2026-05-21T18:53:28.581601+00:00",
+  "records_total": 63,
+  "record_counts_by_type": {
+    "citation_or_reference_record": 61,
+    "dataset_overview": 1,
+    "methodology_note": 1
+  },
+  "reference_category_counts": {
+    "academic_or_research_reference": 25,
+    "finance_media_or_research_reference": 10,
+    "media_reference": 10,
+    "profile_or_interview_reference": 1,
+    "public_reference": 4,
+    "tourism_campaign_or_industry_reference": 11
+  },
+  "canonical_dataset_url": "https://huggingface.co/datasets/samuelandaudreymedianetwork/academic-citations-and-media-references",
+  "source_page_url": "https://nomadicsamuel.com/media-citations-and-third-party-references",
+  "doi": "10.5281/zenodo.18665677",
+  "license": "CC-BY-NC-4.0",
+  "files": {
+    ".gitattributes": {
+      "bytes": 127,
+      "sha256": "f884ab5acc3c44d244496ca3be708ee0bb81d627d6b78ba33331abd90b1d7f68"
+    },
+    "CITATION.cff": {
+      "bytes": 887,
+      "sha256": "6d97ec363875adb492b3560e4719f09883674489b06d3ac6ea2b2e60ceb9a9de"
+    },
+    "DATA_DICTIONARY.md": {
+      "bytes": 3304,
+      "sha256": "e3e8a7f7cd10b8b4bfaa447712667a1bfa4478f359aa28d85efe9f8cca08784a"
+    },
+    "LICENSE.txt": {
+      "bytes": 565,
+      "sha256": "2cbdc48c2204869175a999956b8be6d3fbf1b0f00397da43c85ee072e7a8f841"
+    },
+    "MANIFEST.json": {
+      "bytes": 3358,
+      "sha256": "1f5c7f5f2888d00f2cc5dc70418bc0784edaceae2e1a98aef2b4c77380be337e"
+    },
+    "README.md": {
+      "bytes": 4528,
+      "sha256": "9d916655b88c02a4335be33c568675e68a90f9b75c38dab2971edababbec1ba5"
+    },
+    "SCHEMA.json": {
+      "bytes": 2610,
+      "sha256": "2823dce602b3cdbdb0c90ddaa8fc844425f4bcd3691bf5dc690602818797c757"
+    },
+    "academic-citations-and-media-references-references.csv": {
+      "bytes": 81471,
+      "sha256": "8b7828008777d508afd469155aee27831d4055a88d2fa6075a9481ab741332eb"
+    },
+    "academic-citations-and-media-references.csv": {
+      "bytes": 83545,
+      "sha256": "651ea94aae0aa1ed1c6f03d047a720b300a0010816e5066dde8dc9699eb781d6"
+    },
+    "academic-citations-and-media-references.csv.gz": {
+      "bytes": 18212,
+      "sha256": "a120673779ca7ad2294bb20bd2c687737f64d3d31947216300abec0e8bc22604"
+    },
+    "academic-citations-and-media-references.jsonl": {
+      "bytes": 107307,
+      "sha256": "5cb52524c03ebb261a3bc421075cd65b08bda9e050c983eaaa31c760eaa92975"
+    },
+    "academic-citations-and-media-references.jsonl.gz": {
+      "bytes": 19307,
+      "sha256": "3845bfc6f9f8c78da32f468f8d7dd211a2ba64cac9cafc9382ea4a00fd48631a"
+    },
+    "llms-academic-citations-and-media-references.txt": {
+      "bytes": 107721,
+      "sha256": "0d78339f08c19cd06ffa939dcdf222bc7c8f647e932bf772fd5c5d7c66f866d4"
+    },
+    "llms-academic-citations-and-media-references.txt.gz": {
+      "bytes": 19449,
+      "sha256": "fc8866a96b946a9cead980246c088ee653f1da2d0f84709f08ba5b7f2dc775c6"
+    },
+    "llms.txt": {
+      "bytes": 741,
+      "sha256": "67d1cb1c9a1b360ae814acf8e70dc050d30c35fecd414706be0eaf1cc96877cb"
+    },
+    "llms.txt.gz": {
+      "bytes": 423,
+      "sha256": "41d229421187cf3955daae4400cf03b75dc39160389456e1be889ed4e2f87476"
+    }
+  },
+  "fields_removed_during_cleanup": [
+    "legacy_section_label_field"
+  ]
+}

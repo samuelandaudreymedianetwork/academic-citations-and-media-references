@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Academic Citations and Media References Dataset",
+  "description": "Structured citation and media reference records connected to the Samuel & Audrey Media Network.",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "type": "string"
+    },
+    "record_key": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "headline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publisher": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonical_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "evidence_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reference_category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "project_area": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_published": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "about_names": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "jsonld_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_page_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_block_hash_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "interpretation_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Display title for the record, usually the headline or source name."
+    }
+  },
+  "required": [
+    "record_id",
+    "record_type",
+    "description"
+  ],
+  "additionalProperties": true
+}

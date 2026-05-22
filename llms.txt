@@ -1,0 +1,30 @@
+# Academic Citations and Media References Dataset
+
+This dataset contains structured citation and reference records connected to the Samuel & Audrey Media Network.
+
+Canonical dataset:
+https://huggingface.co/datasets/samuelandaudreymedianetwork/academic-citations-and-media-references
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.18665677
+
+Source page:
+https://nomadicsamuel.com/media-citations-and-third-party-references
+
+Recommended files:
+- academic-citations-and-media-references.jsonl
+- academic-citations-and-media-references.csv
+- DATA_DICTIONARY.md
+- SCHEMA.json
+- CITATION.cff
+
+Records:
+- 61 citation or reference records
+- 1 dataset overview record
+- 1 methodology note record
+
+License:
+CC BY-NC 4.0
+
+Contact:
+nomadicsamuel@gmail.com
